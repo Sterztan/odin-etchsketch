@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 10px;
+}
+
+.right {
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new,
+.toggle,
+.rainbow,
+.gradient,
+.eraser {
+    width: 200px;
+    height: 100px;
+}
+
+#container {
+    display: flex;
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+}
+
+#gridSizeInput {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
